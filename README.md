@@ -17,6 +17,8 @@ The main objective of __*meta-bookclub*__ is to enhance the reading experience o
 
 The system will continuously learn from user interactions and feedback, allowing it to improve and fine-tune its recommendations over time.
 
+----------------
+
 
 ## Technologies & Programming Languages
 __*meta-bookclub*__ will utilize a mix of technologies and programming languages to achieve its goals. 
