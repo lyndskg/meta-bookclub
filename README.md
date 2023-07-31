@@ -49,25 +49,26 @@ The recommended tech stack includes:
 
 ## Basic Workflow
 <a name="BasicWorkflow"></a>
-1. **Data Collection:**
+1. <ins>**Data Collection</ins>:**
 - Obtain user consent and access to their Goodreads/Kindle account(s) using the platform's APIs.
 - Retrieve the user's reading history, including books, poems, ratings, and to-read list.
 - Gather user-inputted preferences, such as favorite genre, book, author, and quotes.
 
-2. **Data Preprocessing:**
+2. <ins>**Data Preprocessing</ins>:**
 - Clean and preprocess the acquired data, handling missing information and converting it into a usable format.
-3. **Feature Engineering**
+
+3. <ins>**Feature Engineering</ins>:**
 - Extract relevant features from the data, such as book genres, author information, and user preferences.
 - Create embeddings or representations for books, poems, and user preferences to facilitate ML modeling.
 
-4. **Machine Learning Model**
+4. <ins>**Machine Learning Model</ins>:**
 - Train a machine learning model (e.g., collaborative filtering, content-based filtering, or hybrid approaches) to learn user preferences and generate book and poem recommendations.
 
-5. **Fine-Tuning Option**
+5. <ins>**Fine-Tuning Option</ins>:**
 - Implement a user interface to allow users to adjust preference metrics' correlation with book/poem recommendations.
 - Collect user feedback on suggested readings to fine-tune the recommendation model accordingly.
 
-6. User Interface
+6. <ins>**User Interface</ins>:**
 - Develop a web-based user interface using Flask or Django to interact with the recommendation system.
 - Allow users to view their suggested reading list, update preferences, and rate recommended books and poems.
 
