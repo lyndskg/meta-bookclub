@@ -1,6 +1,6 @@
 # meta-bookclub
 
-*A Personalized Book and Poem Recommendation System*
+##### *A Personalized Book and Poem Recommendation System*
 
 ----------------
 
