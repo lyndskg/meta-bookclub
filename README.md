@@ -15,7 +15,7 @@
 
 ----------------
 
-## <a name="Introduction"> </a> 
+## <a name="Introduction"> Introduction</a> 
 __*meta-bookclub*__ is an innovative coding project that aims to provide personalized book and poem recommendations to users based on their historical reading data from Goodreads/Kindle accounts and user-inputted preferences. It'll scour the internet for recommendations to fine-tune its profile of you &mdash; the 20th century classics lover, the Kaia Gerber book club fanatic, the Pablo Neruda romantic. 
 
 
