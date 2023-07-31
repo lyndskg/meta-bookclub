@@ -118,7 +118,7 @@ The *recommended* tech stack includes:
 ### <ins>Output</ins>:
    - A personalized list of suggested books and poems from various genres, based on user preferences and reading history.
    - Options to fine-tune the correlation between user preferences and recommendations.
-   <ins>__Note</ins>:__ Privacy and security are of paramount importance in __*meta-bookclub*__. User data should be handled with care, and the project should comply with relevant data protection regulations.
+   - <ins>__Note</ins>:__ Privacy and security are of paramount importance in __*meta-bookclub*__. User data should be handled with care, and the project should comply with relevant data protection regulations.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
