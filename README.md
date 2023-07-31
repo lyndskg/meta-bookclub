@@ -9,6 +9,7 @@ __*meta-bookclub*__ is an innovative coding project that aims to provide persona
 
 
 &nbsp;
+
 Leveraging the power of machine learning, the system will analyze a user's reading history, including books and poems they've read, their ratings, and their to-read list, along with additional user-provided preferences, to generate a curated list of suggested reading materials across various genres.
 
 
