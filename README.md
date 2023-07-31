@@ -14,6 +14,7 @@
 - [Basic I/O Details](#BasicIO)
 - [Getting Started](#GettingStarted)
    - [Usage](#Usage)
+- [Contribute](#Contribute)
 - [Conclusion](#Conclusion)
 
 ----------------
@@ -41,6 +42,11 @@ The system will continuously learn from user interactions and feedback, allowing
 
 <a name="Roadmap"></a>
 ## Roadmap 
+
+1. Implement user registration and authentication for personalized recommendations.
+2. Expand data sources and integrations to include other popular eBook platforms.
+3. Enhance the ML model to consider more nuanced user preferences and literary themes.
+4. Create a mobile app version for on-the-go book and poem recommendations.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,11 +128,27 @@ The recommended tech stack includes:
 <a name="GettingStarted"></a>
 ## Getting Started
 
+To set up __*meta-bookclub*__, follow these steps:
 
+1. Clone the GitHub repository to your local machine.
+2. Install the required dependencies using `pip install -r requirements.txt`.
+3. Set up your Goodreads and Kindle API keys for data access (instructions provided in the project documentation).
+4. Run the Flask application using python `app.py` and access it through your web browser.
 
 
 <a name="Usage"></a>
 ### Usage
+
+__*meta-bookclub*__ aims to enhance the reading experience by guiding users to discover new books and poems that align with their unique tastes. Users can interact with the web application, explore recommended reading lists, read reviews, and provide feedback to fine-tune future recommendations.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+----------------
+
+<a name="Contribute"></a>
+### Contributions
+
+Contributions to __*meta-bookclub*__  are welcome! Whether you're interested in improving the ML model, enhancing the user interface, or adding new features, check out the GitHub repository and follow the guidelines for contributions.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
