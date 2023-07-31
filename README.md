@@ -8,19 +8,18 @@
 __*meta-bookclub*__ is an innovative coding project that aims to provide personalized book and poem recommendations to users based on their historical reading data from Goodreads/Kindle accounts and user-inputted preferences. It'll scour the internet for recommendations to fine-tune its profile of you &mdash; the 20th century classics lover, the Kaia Gerber book club fanatic, the Pablo Neruda romantic. 
 
 
-&nbsp;
 
 Leveraging the power of machine learning, the system will analyze a user's reading history, including books and poems they've read, their ratings, and their to-read list, along with additional user-provided preferences, to generate a curated list of suggested reading materials across various genres.
 
 
 ## Objective
-The main objective of meta-bookclub is to enhance the reading experience of users by suggesting relevant books and poems that align with their unique interests and preferences. 
+The main objective of __*meta-bookclub*__ is to enhance the reading experience of users by suggesting relevant books and poems that align with their unique interests and preferences. 
 
 The system will continuously learn from user interactions and feedback, allowing it to improve and fine-tune its recommendations over time.
 
 
 ## Technologies & Programming Languages
-meta-bookclub will utilize a mix of technologies and programming languages to achieve its goals. 
+__*meta-bookclub*__ will utilize a mix of technologies and programming languages to achieve its goals. 
 
 The recommended tech stack includes:
 1. Python: For its extensive libraries, ease of use, and strong support for machine learning frameworks.
@@ -67,10 +66,10 @@ The recommended tech stack includes:
 ### Output:
 - A personalized list of suggested books and poems from various genres, based on user preferences and reading history.
 - Options to fine-tune the correlation between user preferences and recommendations.
-<ins>__Note<ins>:__ Privacy and security are of paramount importance in meta-bookclub. User data should be handled with care, and the project should comply with relevant data protection regulations.
+<ins>__Note<ins>:__ Privacy and security are of paramount importance in__*meta-bookclub*__. User data should be handled with care, and the project should comply with relevant data protection regulations.
 
 
 ## Conclusion
-meta-bookclub aspires to be a valuable tool for avid readers, providing them with personalized and diverse book and poem recommendations. 
+__*meta-bookclub*__ aspires to be a valuable tool for avid readers, providing them with personalized and diverse book and poem recommendations. 
 
 By leveraging machine learning, user feedback, and fine-tuning options, the system aims to continually improve and cater to the evolving tastes and interests of its users.
