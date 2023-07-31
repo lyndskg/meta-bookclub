@@ -14,7 +14,7 @@
 - [Basic I/O Details](#BasicIO)
 - [Getting Started](#GettingStarted)
    - [Usage](#Usage)
-- [Contribute](#Contribute)
+- [Contributions](#Contribute)
 - [Conclusion](#Conclusion)
 
 ----------------
