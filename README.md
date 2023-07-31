@@ -17,6 +17,8 @@ The main objective of __*meta-bookclub*__ is to enhance the reading experience o
 
 The system will continuously learn from user interactions and feedback, allowing it to improve and fine-tune its recommendations over time.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ----------------
 
 
