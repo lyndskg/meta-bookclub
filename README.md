@@ -4,6 +4,8 @@
 
 #### *a personalized book and poem recommendation system*
 
+# Contents
+
 ----------------
 
 ## Introduction
