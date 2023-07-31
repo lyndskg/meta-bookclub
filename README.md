@@ -136,7 +136,7 @@ To set up __*meta-bookclub*__, follow these steps:
 
 
 <a name="Usage"></a>
-### Usage
+### Usage:
 
 __*meta-bookclub*__ aims to enhance the reading experience by guiding users to discover new books and poems that align with their unique tastes. Users can interact with the web application, explore recommended reading lists, read reviews, and provide feedback to fine-tune future recommendations.
 
