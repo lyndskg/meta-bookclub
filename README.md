@@ -5,7 +5,8 @@
 #### *a personalized book and poem recommendation system*
 
 ## Contents
-- [Introduction](#Introduction) [Objective](#Objective)
+- [Introduction](#Introduction)
+   - [Objective](#Objective)
 - [Technologies and Programming Languages](#TechnologiesandProgrammingLanguages)
 - [Basic Workflow](#BasicWorkflow)
 - [Basic I/O](#BasicIO)
