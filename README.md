@@ -5,7 +5,7 @@
 #### *a personalized book and poem recommendation system*
 
 ## Contents
-- [Introduction](#Introduction)
+- [Overview](#Overview)
    - [Objectives](#Objectives)
 - [Roadmap](#Roadmap)
 - [Technologies & Programming Languages](#tech)
@@ -19,8 +19,8 @@
 
 ----------------
 
-<a name="Introduction"></a>
-## Introduction
+<a name="Overview"></a>
+## Project Overview
 
 __*meta-bookclub*__ is an AI-powered book and poem recommendation system that leverages Machine Learning to generate personalized lists of suggested reading materials to users based on their Goodreads and Kindle accounts, as well as their specific reading history and metrics.
 
