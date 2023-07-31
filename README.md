@@ -34,7 +34,7 @@ The system will continuously learn from user interactions and feedback, allowing
 
 
 ## Technologies and Programming Languages
-<a name="Technologies and Programming Languages"></a>
+<a name="TechnologiesandProgrammingLanguages"></a>
 __*meta-bookclub*__ will utilize a mix of technologies and programming languages to achieve its goals. 
 
 The recommended tech stack includes:
@@ -48,7 +48,7 @@ The recommended tech stack includes:
 ----------------
 
 ## Basic Workflow
-<a name="Basic Workflow"></a>
+<a name="BasicWorkflow"></a>
 1. Data Collection:
    
 - Obtain user consent and access to their Goodreads/Kindle account(s) using the platform's APIs.
@@ -79,7 +79,7 @@ The recommended tech stack includes:
 ----------------
 
 ## Basic I/O
-<a name="Basic I/O"></a>
+<a name="BasicIO"></a>
 
 ### Input:
 - User's Goodreads/Kindle account(s) access credentials.
