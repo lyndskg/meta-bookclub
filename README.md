@@ -32,7 +32,7 @@ The system will continuously learn from user interactions and feedback, allowing
 ----------------
 
 
-## Technologies & Programming Languages
+## Technologies and Programming Languages
 __*meta-bookclub*__ will utilize a mix of technologies and programming languages to achieve its goals. 
 
 The recommended tech stack includes:
