@@ -28,7 +28,6 @@ Leveraging the power of machine learning, the system will analyze the user's rea
 
 It'll scour the internet for recommendations to fine-tune its profile of you &mdash; the 20th century classics lover, the Kaia Gerber book club fanatic, the Pablo Neruda romantic. 
 
-is an AI-powered book and poem recommendation system that leverages Machine Learning to generate personalized lists of suggested reading materials based on the user's Goodreads and Kindle accounts, as well as their specific reading history and metrics. By analyzing the user's read books and poems, ratings, to-read list, preferred genres, and other user-inputted preferences, Meta-BookClub offers curated recommendations tailored to each individual's tastes.
 &nbsp;
 
 ## Objectives
