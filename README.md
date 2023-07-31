@@ -1,8 +1,8 @@
 <a name="readme-top"></a>
 
-<a name="Introduction">
-## Introduction
-</a>
+## <a name="Introduction">
+
+</a> ##
 
 # meta-bookclub
 
