@@ -6,8 +6,9 @@
 
 ## Contents
 - [Introduction](#Introduction) [Objective](#Objective)
-- [Technologies & Programming Languages](#TechProgrammingLangs)
-- [Basic Workflow](#BasicWorkflow) [Basic I/O](#BasicIO)
+- [Technologies and Programming Languages](#TechnologiesandProgrammingLanguages)
+- [Basic Workflow](#BasicWorkflow)
+- [Basic I/O](#BasicIO)
 - [Conclusion](#Conclusion)
 
 ----------------
