@@ -8,7 +8,7 @@
 - [Introduction](#Introduction)
    - [Objectives](#Objectives)
 - [Roadmap](#Roadmap)
-- [Technologies and Programming Languages](#TechnologiesandProgrammingLanguages)
+- [Technologies & Programming Languages](#tech)
 - [Key Features](#KeyFeatures)
 - [Basic Workflow](#BasicWorkflow)
 - [Basic I/O Details](#BasicIO)
@@ -51,11 +51,11 @@ The system will continuously learn from user interactions and feedback, allowing
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ----------------
-<a name="TechnologiesandProgrammingLanguages"></a>
-## Technologies and Programming Languages
+<a name="tech"></a>
+## Technologies & Programming Languages
 __*meta-bookclub*__ will utilize a mix of technologies and programming languages to achieve its goals. 
 
-The recommended tech stack includes:
+The *recommended* tech stack includes:
 1. <ins>**Python</ins>:** For its extensive libraries, ease of use, and strong support for machine learning frameworks.
 2. <ins>**TensorFlow**</ins> or <ins>**PyTorch</ins>:** For building and training the machine learning models.
 3. <ins>**Web</ins> <ins>APIs</ins>:** To access data from Goodreads and other platforms, such as Google for additional book ratings.
@@ -158,3 +158,5 @@ Contributions to __*meta-bookclub*__  are welcome! Whether you're interested in 
 __*meta-bookclub*__ aspires to be a valuable tool for avid readers, providing them with personalized and diverse book and poem recommendations. 
 
 By leveraging machine learning, user feedback, and fine-tuning options, the system aims to continually improve and cater to the evolving tastes and interests of its users.
+
+__*meta-bookclub*__ also strives to make reading a delightful and personalized experience for book and poetry enthusiasts. By leveraging ML insights and user feedback, the app aims to be a reliable companion in exploring the captivating world of literature.
