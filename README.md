@@ -50,9 +50,9 @@ The recommended tech stack includes:
 ## Basic Workflow
 <a name="BasicWorkflow"></a>
 1. <ins>**Data Collection</ins>:**
-- Obtain user consent and access to their Goodreads/Kindle account(s) using the platform's APIs.
-- Retrieve the user's reading history, including books, poems, ratings, and to-read list.
-- Gather user-inputted preferences, such as favorite genre, book, author, and quotes.
+-    Obtain user consent and access to their Goodreads/Kindle account(s) using the platform's APIs.
+-    Retrieve the user's reading history, including books, poems, ratings, and to-read list.
+-    Gather user-inputted preferences, such as favorite genre, book, author, and quotes.
 
 2. <ins>**Data Preprocessing</ins>:**
 - Clean and preprocess the acquired data, handling missing information and converting it into a usable format.
