@@ -6,7 +6,7 @@
 
 ## Contents
 - [Introduction](#Introduction)
-   - [Objective](#Objective)
+   - [Objectives](#Objectives)
 - [Technologies and Programming Languages](#TechnologiesandProgrammingLanguages)
 - [Basic Workflow](#BasicWorkflow)
 - [Basic I/O](#BasicIO)
@@ -24,7 +24,7 @@ __*meta-bookclub*__ is an innovative coding project that aims to provide persona
 Leveraging the power of machine learning, the system will analyze a user's reading history, including books and poems they've read, their ratings, and their to-read list, along with additional user-provided preferences, to generate a curated list of suggested reading materials across various genres.
 
 
-## Objective
+## Objectives
 The main objective of __*meta-bookclub*__ is to enhance the reading experience of users by suggesting relevant books and poems that align with their unique interests and preferences. 
 
 The system will continuously learn from user interactions and feedback, allowing it to improve and fine-tune its recommendations over time.
@@ -38,10 +38,10 @@ The system will continuously learn from user interactions and feedback, allowing
 __*meta-bookclub*__ will utilize a mix of technologies and programming languages to achieve its goals. 
 
 The recommended tech stack includes:
-1. **Python**: For its extensive libraries, ease of use, and strong support for machine learning frameworks.
-2. TensorFlow or PyTorch: For building and training the machine learning models.
-3. Web APIs: To access data from Goodreads and other platforms, such as Google for additional book ratings.
-4. Flask or Django: To create a user-friendly web application for interfacing with the recommendation system.
+1. <ins>**Python</ins>:** For its extensive libraries, ease of use, and strong support for machine learning frameworks.
+2. <ins>**TensorFlow**</ins> or <ins>**PyTorch</ins>:** For building and training the machine learning models.
+3. <ins>**Web</ins> <ins>APIs</ins>:** To access data from Goodreads and other platforms, such as Google for additional book ratings.
+4. <ins>**Flask**</ins> or <ins>**Django</ins>:** To create a user-friendly web application for interfacing with the recommendation system.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
