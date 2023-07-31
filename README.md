@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-## <a name="Introduction">
+## <a name="hi">
 Hi
 </a> 
 
@@ -9,6 +9,7 @@ Hi
 #### *a personalized book and poem recommendation system*
 
 ## Contents
+- [hi](#hi)
 - [Introduction](#Introduction)
    - [Objective](#Objective)
 - [Technologies and Programming Languages](#TechnologiesandProgrammingLanguages)
