@@ -3,7 +3,7 @@
 # meta-bookclub
 
 #### *a personalized book and poem recommendation system*
-<summary>
+
 ## Contents
 - [Introduction](#Introduction)
    - [Objectives](#Objectives)
@@ -16,7 +16,7 @@
    - [Usage](#Usage)
 - [Contributions](#Contribute)
 - [Conclusion](#Conclusion)
-</summary>
+
 ----------------
 
 <a name="Introduction"></a>
