@@ -7,9 +7,13 @@
 ## Contents
 - [Introduction](#Introduction)
    - [Objectives](#Objectives)
+- [Roadmap](#Roadmap)
 - [Technologies and Programming Languages](#TechnologiesandProgrammingLanguages)
+- [Key Features](#KeyFeatures)
 - [Basic Workflow](#BasicWorkflow)
 - [Basic I/O Details](#BasicIO)
+- [Getting Started](#GettingStarted)
+   - [Usage](#Usage)
 - [Conclusion](#Conclusion)
 
 ----------------
@@ -35,6 +39,12 @@ The system will continuously learn from user interactions and feedback, allowing
 
 ----------------
 
+<a name="Roadmap"></a>
+## Roadmap 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+----------------
 <a name="TechnologiesandProgrammingLanguages"></a>
 ## Technologies and Programming Languages
 __*meta-bookclub*__ will utilize a mix of technologies and programming languages to achieve its goals. 
@@ -49,6 +59,7 @@ The recommended tech stack includes:
 
 ----------------
 
+<a name="KeyFeatures"></a>
 ## Key Features
    - ML-driven personalized book and poem recommendations
    - Integration with Goodreads and Kindle accounts for data analysis
@@ -103,6 +114,21 @@ The recommended tech stack includes:
    - A personalized list of suggested books and poems from various genres, based on user preferences and reading history.
    - Options to fine-tune the correlation between user preferences and recommendations.
    <ins>__Note</ins>:__ Privacy and security are of paramount importance in__*meta-bookclub*__. User data should be handled with care, and the project should comply with relevant data protection regulations.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+----------------
+
+<a name="GettingStarted"></a>
+## Getting Started
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+----------------
+
+<a name="Usage"></a>
+### Usage
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
