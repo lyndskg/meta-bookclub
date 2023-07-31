@@ -123,9 +123,7 @@ The recommended tech stack includes:
 ## Getting Started
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-----------------
 
 <a name="Usage"></a>
 ### Usage
