@@ -14,8 +14,9 @@
 
 ----------------
 
-## Introduction
 <a name="Introduction"></a>
+## Introduction
+
 __*meta-bookclub*__ is an innovative coding project that aims to provide personalized book and poem recommendations to users based on their historical reading data from Goodreads/Kindle accounts and user-inputted preferences. It'll scour the internet for recommendations to fine-tune its profile of you &mdash; the 20th century classics lover, the Kaia Gerber book club fanatic, the Pablo Neruda romantic. 
 
 
@@ -32,13 +33,12 @@ The system will continuously learn from user interactions and feedback, allowing
 
 ----------------
 
-
-## Technologies and Programming Languages
 <a name="TechnologiesandProgrammingLanguages"></a>
+## Technologies and Programming Languages
 __*meta-bookclub*__ will utilize a mix of technologies and programming languages to achieve its goals. 
 
 The recommended tech stack includes:
-1. Python: For its extensive libraries, ease of use, and strong support for machine learning frameworks.
+1. **Python**: For its extensive libraries, ease of use, and strong support for machine learning frameworks.
 2. TensorFlow or PyTorch: For building and training the machine learning models.
 3. Web APIs: To access data from Goodreads and other platforms, such as Google for additional book ratings.
 4. Flask or Django: To create a user-friendly web application for interfacing with the recommendation system.
