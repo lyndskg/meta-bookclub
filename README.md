@@ -1,3 +1,5 @@
+<a name="readme-top"></a>
+
 # meta-bookclub
 
 #### *a personalized book and poem recommendation system*
@@ -31,6 +33,7 @@ The recommended tech stack includes:
 3. Web APIs: To access data from Goodreads and other platforms, such as Google for additional book ratings.
 4. Flask or Django: To create a user-friendly web application for interfacing with the recommendation system.
 
+----------------
 
 ## Basic Workflow
 1. Data Collection:
@@ -58,6 +61,7 @@ The recommended tech stack includes:
 - Allow users to view their suggested reading list, update preferences, and rate recommended books and poems.
 - Basic Input and Output Details
 
+----------------
 
 ## Basic I/O
 
@@ -72,6 +76,7 @@ The recommended tech stack includes:
 - Options to fine-tune the correlation between user preferences and recommendations.
 <ins>__Note<ins>:__ Privacy and security are of paramount importance in__*meta-bookclub*__. User data should be handled with care, and the project should comply with relevant data protection regulations.
 
+----------------
 
 ## Conclusion
 __*meta-bookclub*__ aspires to be a valuable tool for avid readers, providing them with personalized and diverse book and poem recommendations. 
