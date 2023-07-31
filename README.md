@@ -17,12 +17,13 @@
 <a name="Introduction"></a>
 ## Introduction
 
-__*meta-bookclub*__ is an innovative coding project that aims to provide personalized book and poem recommendations to users based on their historical reading data from Goodreads/Kindle accounts and user-inputted preferences. It'll scour the internet for recommendations to fine-tune its profile of you &mdash; the 20th century classics lover, the Kaia Gerber book club fanatic, the Pablo Neruda romantic. 
+__*meta-bookclub*__ is an AI-powered book and poem recommendation system that leverages Machine Learning to generate personalized lists of suggested reading materials to users based on their Goodreads and Kindle accounts, as well as their specific reading history and metrics.
 
+Leveraging the power of machine learning, the system will analyze the user's reading history, including books and poems they've read, their ratings, and their to-read list, along with additional user-provided preferences, to generate a curated list of suggested reading materials across various genres.
 
+It'll scour the internet for recommendations to fine-tune its profile of you &mdash; the 20th century classics lover, the Kaia Gerber book club fanatic, the Pablo Neruda romantic. 
 
-Leveraging the power of machine learning, the system will analyze a user's reading history, including books and poems they've read, their ratings, and their to-read list, along with additional user-provided preferences, to generate a curated list of suggested reading materials across various genres.
-
+is an AI-powered book and poem recommendation system that leverages Machine Learning to generate personalized lists of suggested reading materials based on the user's Goodreads and Kindle accounts, as well as their specific reading history and metrics. By analyzing the user's read books and poems, ratings, to-read list, preferred genres, and other user-inputted preferences, Meta-BookClub offers curated recommendations tailored to each individual's tastes.
 &nbsp;
 
 ## Objectives
@@ -43,6 +44,18 @@ The recommended tech stack includes:
 2. <ins>**TensorFlow**</ins> or <ins>**PyTorch</ins>:** For building and training the machine learning models.
 3. <ins>**Web</ins> <ins>APIs</ins>:** To access data from Goodreads and other platforms, such as Google for additional book ratings.
 4. <ins>**Flask**</ins> or <ins>**Django</ins>:** To create a user-friendly web application for interfacing with the recommendation system.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+----------------
+
+## Key Features
+   - ML-driven personalized book and poem recommendations
+   - Integration with Goodreads and Kindle accounts for data analysis
+   - Fine-tuning of user preferences' metrics for accurate suggestions
+   - Correlation with Goodreads and Google scores/ratings for reliability
+   - Option to explore and discover books and poems by genres, authors, and ratings
+   - User-friendly interface for easy interaction and feedback
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
