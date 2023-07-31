@@ -118,7 +118,7 @@ The *recommended* tech stack includes:
 ### <ins>Output</ins>:
    - A personalized list of suggested books and poems from various genres, based on user preferences and reading history.
    - Options to fine-tune the correlation between user preferences and recommendations.
-   <ins>__Note</ins>:__ Privacy and security are of paramount importance in__*meta-bookclub*__. User data should be handled with care, and the project should comply with relevant data protection regulations.
+   <ins>__Note</ins>:__ Privacy and security are of paramount importance in __*meta-bookclub*__. User data should be handled with care, and the project should comply with relevant data protection regulations.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -157,5 +157,7 @@ Contributions to __*meta-bookclub*__  are welcome! Whether you're interested in 
 __*meta-bookclub*__ aspires to be a valuable tool for avid readers, providing them with personalized and diverse book and poem recommendations. 
 
 By leveraging machine learning, user feedback, and fine-tuning options, the system aims to continually improve and cater to the evolving tastes and interests of its users.
+
+&nbsp;
 
 __*meta-bookclub*__ also strives to make reading a delightful and personalized experience for book and poetry enthusiasts. By leveraging ML insights and user feedback, the app aims to be a reliable companion in exploring the captivating world of literature.
