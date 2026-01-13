@@ -1,5 +1,14 @@
 <a name="readme-top"></a>
 
+<h1 align="center">meta-bookclub</h1>
+<h4 align="center"><ins><strong><em>* a personal-use book + poem recommender with optional advanced features * </em></strong></ins></h4>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/lyndsey791/">LinkedIn</a> |
+  <a href="https://github.com/lyndskg/">GitHub</a> |
+  <a href="#contact">Contact</a>
+</p>
+
 # meta-bookclub
 
 #### *a personalized book and poem recommendation system*
