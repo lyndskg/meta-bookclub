@@ -9,9 +9,6 @@
   <a href="#contact">Contact</a>
 </p>
 
-# meta-bookclub
-
-#### *a personalized book and poem recommendation system*
 
 ## Contents
 - [Overview](#Overview)
