@@ -15,6 +15,7 @@
    - [Objectives](#Objectives)
 - [Roadmap](#Roadmap)
 - [Technologies & Programming Languages](#tech)
+- [MVP Scope](#mvp)
 - [Key Features](#KeyFeatures)
 - [Basic Workflow](#BasicWorkflow)
 - [Basic I/O Details](#BasicIO)
@@ -28,16 +29,26 @@
 <a name="Overview"></a>
 ## Project Overview
 
-__*meta-bookclub*__ is an AI-powered book and poem recommendation system that leverages Machine Learning to generate personalized lists of suggested reading materials to users based on their Goodreads and Kindle accounts, as well as their specific reading history and metrics.
+__*meta-bookclub*__ is a lightweight, personal-use, AI-powered recommendation tool that generates personalized lists of suggested reading materials based on your own reading history. It uses a small local dataset, a pre-trained embedding model, and simple similarity scoring. Everything runs locally and privately.
 
+The base project is intentionally minimal. All advanced features are optional and can be added only if you want to.
+
+It is compatible with Goodreads and Kindle (to scrape specific in-app reading history and metrics), and will scour the internet for recommendations to fine-tune its profile of you &mdash; the 20th century classics lover, the Kaia Gerber book club fanatic, the Pablo Neruda romantic. 
 Leveraging the power of machine learning, the system will analyze the user's reading history, including books and poems they've read, their ratings, and their to-read list, along with additional user-provided preferences, to generate a curated list of suggested reading materials across various genres.
 
 It'll scour the internet for recommendations to fine-tune its profile of you &mdash; the 20th century classics lover, the Kaia Gerber book club fanatic, the Pablo Neruda romantic. 
+
 
 &nbsp;
 
 ## Objectives
 The main objective of __*meta-bookclub*__ is to enhance the reading experience of users by suggesting relevant books and poems that align with their unique interests and preferences. 
+
+- Provide a simple, local recommendation tool.
+- Use pre-trained embeddings (no training required).
+- Keep the codebase small and easy to modify.
+- Allow optional expansion into more advanced ML or UI features.
+
 
 The system will continuously learn from user interactions and feedback, allowing it to improve and fine-tune its recommendations over time.
 
@@ -66,7 +77,43 @@ The *recommended* tech stack includes:
 3. <ins>**Web</ins> <ins>APIs</ins>:** To access data from Goodreads and other platforms, such as Google for additional book ratings.
 4. <ins>**Flask**</ins> or <ins>**Django</ins>:** To create a user-friendly web application for interfacing with the recommendation system.
 
+**Core (MVP):**
+- Python  
+- SentenceTransformers  
+- scikit-learn  
+- JSON  
+
+**Optional:**
+- FastAPI (API wrapper)  
+- React or simple HTML (UI)  
+- SQLite/PostgreSQL (larger datasets)  
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+----------------
+
+<a name="MVP"></a>
+## MVP Scope (Personal Use)
+
+This is the version you can build in **1–2 sittings**.
+
+### Included:
+- `books.json` with your reading history  
+- Embedding generation script  
+- Similarity-based recommender  
+- CLI or simple API endpoint  
+
+### Not included (unless you want them):
+- UI  
+- External APIs  
+- User accounts  
+- ML training  
+- Desktop app  
+- Deployment  
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ----------------
 
@@ -79,12 +126,29 @@ The *recommended* tech stack includes:
    - Option to explore and discover books and poems by genres, authors, and ratings
    - User-friendly interface for easy interaction and feedback
 
+
+- Local JSON dataset of books/poems.
+- Pre-trained SentenceTransformer embeddings.
+- Cosine similarity recommendations.
+- Simple Python scripts (CLI or optional API).
+- Fully offline and private.
+- Optional advanced features (see below).
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ----------------
 
-## Basic Workflow
 <a name="BasicWorkflow"></a>
+## Basic Workflow
+
+
+1. Add your books/poems to `books.json`.
+2. Run `embed.py` to generate embeddings.
+3. Run `recommend.py --title "<book>"`.
+4. Get a ranked list of similar items.
+
+
+
 1. <ins>**Data Collection</ins>:**
       - Obtain user consent and access to their Goodreads/Kindle account(s) using the platform's APIs.
       - Retrieve the user's reading history, including books, poems, ratings, and to-read list.
@@ -115,6 +179,15 @@ The *recommended* tech stack includes:
 
 ## Basic I/O Details
 <a name="BasicIO"></a>
+
+### Input
+- Title, author, or tag  
+- Local dataset (`books.json`)
+
+### Output
+- Ranked list of recommendations with similarity scores
+
+
 
 ### <ins>Input</ins>:
    - User's Goodreads/Kindle account(s) access credentials.
@@ -149,6 +222,26 @@ __*meta-bookclub*__ aims to enhance the reading experience by guiding users to d
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ----------------
+
+
+<a name="Implementation"></a>
+## Implementation Details
+
+### 1. Data
+Example entry:
+
+*```json
+{
+  "title": "Bluets",
+  "author": "Maggie Nelson",
+  "genres": ["essay", "poetry"],
+  "notes": "lyrical, fragmented, introspective"
+}*
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+----------------
+
 
 <a name="Contribute"></a>
 ### Contributions
