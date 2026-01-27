@@ -14,6 +14,7 @@
 ## Contents
 - [Overview](#Overview)
 - [Objectives](#Objectives)
+- [Roadmap](#Roadmap)
 - [Key Features](#KeyFeatures)
 - [Tech Stack](#TechStack)
 - [MVP Scope (Personal Use)](#MVP)
@@ -23,7 +24,10 @@
 - [Setup](#Setup)
 - [Usage](#Usage)
 - [Optional Future Enhancements](#Future)
+- [Contributions](#Contributions)
+- [Conclusion](#Conclusion)
 - [Contact](#contact)
+
 
 ---------------
 
@@ -50,7 +54,17 @@ The main objective of `meta-bookclub` is to enhance the reading experience of us
 - Keep the codebase small and easy to modify.
 - Allow optional expansion into more advanced ML or UI features.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+The system will continuously learn from user interactions and feedback, allowing it to improve and fine-tune its recommendations over time.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+---------------
+
+<a name="Roadmap"></a>
+
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ---------------
 
@@ -76,7 +90,10 @@ The main objective of `meta-bookclub` is to enhance the reading experience of us
 **Optional:**
 - FastAPI (API wrapper)  
 - React or simple HTML (UI)  
-- SQLite/PostgreSQL (larger datasets)  
+- SQLite/PostgreSQL (larger datasets)
+
+  
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ---------------
 
@@ -99,6 +116,9 @@ This is the version you can build in **1–2 sittings**.
 - Desktop app  
 - Deployment  
 
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ---------------
 
 <a name="Workflow"></a>
@@ -108,6 +128,8 @@ This is the version you can build in **1–2 sittings**.
 2. Run `embed.py` to generate embeddings.
 3. Run `recommend.py --title "<book>"`.
 4. Get a ranked list of similar items.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ---------------
 
@@ -120,6 +142,8 @@ This is the version you can build in **1–2 sittings**.
 
 ### Output
 - Ranked list of recommendations with similarity scores
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ---------------
 
@@ -136,3 +160,53 @@ Example entry:
   "genres": ["essay", "poetry"],
   "notes": "lyrical, fragmented, introspective"
 }
+```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+---------------
+
+<a name="Setup"></a>
+## Setup
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+---------------
+
+
+<a name="Usage"></a>
+## Usage
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+---------------
+
+
+<a name="Contributions"></a>
+## Contributions
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+---------------
+
+
+<a name="Conclusion"></a>
+## Conclusion
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+---------------
+
+
+<a name="Contact"></a>
+## Contact
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+---------------
+
