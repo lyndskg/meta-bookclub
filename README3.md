@@ -34,9 +34,14 @@
 
 The base project is intentionally minimal. All advanced features are optional and can be added only if you want to.
 
+&nbsp;
+
 
 <a name="Objectives"></a>
 ## Objectives
+
+The main objective of **meta-bookclub** is to enhance the reading experience of users by suggesting relevant books and poems that align with their unique interests and preferences.
+
 - Load a small dataset of books/poems you’ve read or liked.
 - Provide a simple, local recommendation tool.
 - Use and enerate embeddings using a pre-trained model (no training required).
