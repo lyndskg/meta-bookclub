@@ -117,7 +117,7 @@
 
 ## <ins>Table of Contents</ins>
 
-### 1. Overview & Features
+### I:  <ins>*Overview & Features*<ins>
 - [Overview](#Overview)
     - [Objectives](#Objectives)
     - [Key Features](#KeyFeatures)
@@ -128,7 +128,7 @@
     - [Time Estimate(s)](#TimeEst)
  
       
-### 2. Implementation Details
+### II: *<ins>Implementation Details</ins>*
 - [Tech Stack](#TechStack)
 - [Roadmap](#Roadmap)
     - [To-Do List](#ToDo)
@@ -140,7 +140,7 @@
     - [Web Application](#Web)
 - [Optional Future Enhancements](#Future)
   
-### III: Usage, Installation & Getting Started
+### *<ins>III: Usage, Installation & Getting Started</ins>*
 - [I/O Specifications](#IO)
     - [Input](#i)
     - [Output](#o)
@@ -152,7 +152,7 @@
 - [Setup](#Setup)
 - [Usage](#Usage)
   
-### IV: Miscellaneous
+### IV: *<ins>Miscellaneous</ins>*
 - [Contributions](#Contributions)
 - [Conclusion](#Conclusion)
 - [Contact](#Contact)
@@ -207,6 +207,20 @@ The system will continuously learn from user interactions and feedback, allowing
 
 <a name="Notes"></a>
 ## Current Notes & Issues
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+---------------
+
+<a name="KeyFeatures"></a>
+## Key Features
+- Local JSON dataset of books/poems.
+- Pre-trained SentenceTransformer embeddings.
+- Cosine similarity recommendations.
+- Simple Python scripts (CLI or optional API).
+- Fully offline and private.
+- Optional advanced features (see below).
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
