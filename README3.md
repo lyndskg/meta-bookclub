@@ -25,42 +25,30 @@
           <li><a href="#Notes">Current Notes and Issues</a></li>
         </ul>
       </li>
-      <li><a href="#tech">Currently Used Tech Stack</a></li>
-      <li><a href="devenv">Development Environment</a></li>
-      <li><a href="#uiux">UI/UX Implementation Details</a></li>
-      <li><a href="io">Potential I/O Specifications</a>
-      <li><a href="#err">Error Handling</a></li>
-      <li><a href="#plus">Future Enhancements</a></li>
-      <li><a href="bye">Conclusion</a></li>
     </ol>
   </details>
 -
   <details>
     <summary><strong><em>II: Implementation Details</em></strong></summary>
     <ol>
-      <li><a href="#tech">Technologies and Programming Languages</a></li>
-      <li><a href="devenv">Development Environment</a></li>
+      <li><a href="#TechStack">Technologies and Programming Languages</a></li>
       <li>
-        <a href="#map">Roadmap</a>
+        <a href="#Roadmap">Roadmap</a>
         <ul>
-          <li><a href="todo">To-Do List</a></li>
-          <li><a href="est">Time Estimate</a></li>
+          <li><a href="#Todo">To-Do List</a></li>
+          <li><a href="#TimeEst">Time Estimate</a></li>
         </ul> 
       </li>
-      <li><a href="#uiux">UI/UX Implementation Details</a></li>
-      <li><a href="#feat">Key Features</a></li>
-      <li><a href="web">Web Application</a></li>
-      <li><a href="#flow">Basic Workflow Guide</a></li>
-      <li><a href="#impl">Project Implementation Guide</a></li>
+      <li><a href="#MVP">MVP Scope (Personal Use)n</a></li>
+      <li><a href="#Workflow">Basic Workflow Guide</a></li>
       <li>
-        <a href="io">Potential I/O Specifications</a>
-        <ul>
-          <li><a href="#i">Input</a></li>
-          <li><a href="#o">Output</a></li>
-          <li><a href="#err">Error Handling</a></li>
-        </ul>
-      </li>
-      <li><a href="#plus">Future Enhancements</a></li>
+        <a href="#Project">Project Implementation Guide</a></li>
+      <ul>
+      <li><a href="#UIUX">UI/UX Implementation Details</a></li>
+      <li><a href="#Web">Web Application</a></li>
+      <li><a href="#Implementation">Implementation Details</a></li>
+      </ul>
+      <li><a href="#Future">Future Enhancements</a></li>
     </ol>
   </details>
 -
@@ -68,52 +56,50 @@
     <summary><strong><em>III: Usage, Installation & Getting Started</em></strong></summary>
     <ol>
       <li>
-        <a href="#view">Project Overview</a>
+        <a href="#IO">I/O Specifications</a>
         <ul>
-          <li><a href="#obj">Objectives</a></li>
+          <li><a href="#i">Input</a></li>
+          <li><a href="#o">Output</a></li>
+          <li><a href="#Error">Error Handling</a></li>
         </ul>
       </li>
-      <li><a href="#feat">Key Features</a></li>
-      <li><a href="io">Potential I/O Specifications</a>
-      <li><a href="#err">Error Handling</a></li>
-      <li><a href="#install">Installation</a>
+      <li><a href="#Install">Installation</a>
         <ul>
-          <li><a href="#prereq">Prerequisites</a></li>
-          <li><a href="buildnrun">Build and Run</a></li>
+          <li><a href="#Prereqs">Prerequisites</a></li>
+          <li><a href="#BuildAndRun">Build and Run</a></li>
         </ul>
       </li>
-      <li><a href="usage">Usage</a></li>
-      <li><a href="#sys">System Requirements</a></li>
+      <li><a href="#Setup">Setup</a></li>
+      <li><a href="#Usage">Usage</a></li>
+      <li><a href="#SystemReqs">System Requirements</a></li>
     </ol>
   </details>
 -
   <details>
     <summary><strong><em>IV: Miscellaneous</em></strong></summary>
     <ol>
-      <a href="#view">Project Overview</a>
-      <li><a href="#tech">Technologies and Programming Languages</a></li>
       <li>
-        <a href="misc">Miscellaneous</a>
+        <a href="Misc">Miscellaneous</a>
           <ul>
-            <li><a href="devenv">Development Environment</a></li>
-            <li><a href="est">Time Estimate</a></li>
+            <li><a href="#DevEnv">Development Environment</a></li>
+            <li><a href="#TimeEst">Time Estimate</a></li>
           </ul>
       </li>
-      <li><a href="give">Contributions</a></li>
-        <ul>
-          <li><a href="coc">Code of Conduct</a></li>
-          <li><a href="whattogive">What?</a></li>
-          <li><a href="howtogive">How?</a></li>
-          <li><a href="whygive">Why?</a></li>
-        </ul>
-      </li>><a href="Conclusion">Conclusion</a></li>
-      <li><a href="#Contact">Contact</a></li>
-      <li><a href="#Acknowledgements">Acknowledgments</a></li>
+      <li><a href="Contributions">Contributions</a></li>
+      <li><a href="Conclusion">Conclusion</a></li>
+      <li><a href="Contact">Contact</a></li>
+      <li><a href="Acknowledgements">Acknowledgments</a></li>
     </ol>
   </details>
 
+<details>
+  <summary>File Hierarchy</summary>
+</details>
 
-- Current Tech Stack &nbsp; [<a href="#tech">view more details</a>]</p>
+<details>
+  <summary>Current Tech Stack &nbsp; [<a href="#TechStack">view more details</a>]</p>
+  </summary>
+</details>
 
 
 <details>
@@ -125,20 +111,48 @@
   </summary>
 </details>
 
-### <ins>Table of Contents</ins>
+
+---------------
+
+
+## <ins>Table of Contents</ins>
+
+### 1. Overview & Features
 - [Overview](#Overview)
     - [Objectives](#Objectives)
     - [Key Features](#KeyFeatures)
     - [Current Notes & Issues](#Notes)
+- [Addenda](#Addenda)
+    - [MVP Scope (Personal Use)](#MVP)
+    - [Development Environment](#DevEnv)
+    - [Time Estimate(s)](#TimeEst)
+ 
+      
+### 2. Implementation Details
 - [Tech Stack](#TechStack)
 - [Roadmap](#Roadmap)
-- [MVP Scope (Personal Use)](#MVP)
+    - [To-Do List](#ToDo)
+    - [Time Estimate](#TimeEst)
 - [Basic Workflow](#Workflow)
+- [Project Guide](#Project)
+    - [Implementation Details](#Implementation)
+    - [UI/UX Implementation Details](#UIUX)
+    - [Web Application](#Web)
+- [Optional Future Enhancements](#Future)
+  
+### III: Usage, Installation & Getting Started
 - [I/O Specifications](#IO)
-- [Implementation Details](#Implementation)
+    - [Input](#i)
+    - [Output](#o)
+    - [Error Handling](#Error)
+- [Installation](#Installation)
+    - [Prerequisites](#Prereqs)
+      - [System Requirements](#SystemReqs)
+    - [Build & Run](#BuildAndRun)
 - [Setup](#Setup)
 - [Usage](#Usage)
-- [Optional Future Enhancements](#Future)
+  
+### IV: Miscellaneous
 - [Contributions](#Contributions)
 - [Conclusion](#Conclusion)
 - [Contact](#Contact)
@@ -298,6 +312,16 @@ Example entry:
 
 ---------------
 
+
+
+<a name="Future"></a>
+## Future
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+---------------
+
 <a name="Setup"></a>
 ## Setup
 
@@ -309,15 +333,6 @@ Example entry:
 
 <a name="Usage"></a>
 ## Usage
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
----------------
-
-
-<a name="Future"></a>
-## Future
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
