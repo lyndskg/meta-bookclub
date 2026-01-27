@@ -12,7 +12,7 @@
 ---------------
 
 
-## <ins>Table of Contents</ins>
+## Table of Contents
 
 ### I:  <ins>*Overview & Features*<ins>
 - [Overview](#Overview)
