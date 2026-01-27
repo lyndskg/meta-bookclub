@@ -9,108 +9,6 @@
   <a href="#contact">Contact</a>
 </p>
 
----
-
-## Contents
-
--
-  <details>
-    <summary><strong><em>I: Overview & Features</em></strong></summary>
-    <ol>
-      <li>
-        <a href="#Overview">Project Overview</a>
-        <ul>
-          <li><a href="#Objectives">Objectives</a></li>
-          <li><a href="#KeyFeatures">Key Features</a></li>
-          <li><a href="#Notes">Current Notes and Issues</a></li>
-        </ul>
-      </li>
-    </ol>
-  </details>
--
-  <details>
-    <summary><strong><em>II: Implementation Details</em></strong></summary>
-    <ol>
-      <li><a href="#TechStack">Technologies and Programming Languages</a></li>
-      <li>
-        <a href="#Roadmap">Roadmap</a>
-        <ul>
-          <li><a href="#Todo">To-Do List</a></li>
-        </ul> 
-      </li>
-      <li><a href="#MVP">MVP Scope (Personal Use)n</a></li>
-      <li><a href="#Workflow">Basic Workflow Guide</a></li>
-      <li>
-        <a href="#Project">Project Implementation Guide</a></li>
-      <ul>
-      <li><a href="#UIUX">UI/UX Implementation Details</a></li>
-      <li><a href="#Web">Web Application</a></li>
-      <li><a href="#Implementation">Implementation Details</a></li>
-      </ul>
-      <li><a href="#Future">Future Enhancements</a></li>
-    </ol>
-  </details>
--
-  <details>
-    <summary><strong><em>III: Usage, Installation & Getting Started</em></strong></summary>
-    <ol>
-      <li>
-        <a href="#IO">I/O Specifications</a>
-        <ul>
-          <li><a href="#i">Input</a></li>
-          <li><a href="#o">Output</a></li>
-          <li><a href="#Error">Error Handling</a></li>
-        </ul>
-      </li>
-      <li><a href="#Install">Installation</a>
-        <ul>
-          <li><a href="#Prereqs">Prerequisites</a></li>
-          <li><a href="#BuildAndRun">Build and Run</a></li>
-        </ul>
-      </li>
-      <li><a href="#Setup">Setup</a></li>
-      <li><a href="#Usage">Usage</a></li>
-      <li><a href="#SystemReqs">System Requirements</a></li>
-    </ol>
-  </details>
--
-  <details>
-    <summary><strong><em>IV: Miscellaneous</em></strong></summary>
-    <ol>
-      <li>
-        <a href="Misc">Miscellaneous</a>
-          <ul>
-            <li><a href="#DevEnv">Development Environment</a></li>
-            <li><a href="#TimeEst">Time Estimate</a></li>
-          </ul>
-      </li>
-      <li><a href="Contributions">Contributions</a></li>
-      <li><a href="Conclusion">Conclusion</a></li>
-      <li><a href="Contact">Contact</a></li>
-      <li><a href="Acknowledgements">Acknowledgments</a></li>
-    </ol>
-  </details>
-
-<details>
-  <summary>File Hierarchy</summary>
-</details>
-
-<details>
-  <summary>Current Tech Stack &nbsp; [<a href="#TechStack">view more details</a>]</p>
-  </summary>
-</details>
-
-
-<details>
-  <summary>Progress &nbsp; [<a href="#curr">view our progress, logs, and other documentation</a>]</summary>
-    <p><strong><ins>Note</ins>:</strong><em> Last updated</em>: 1/27/26</p>
-     <ol>
-       <li><a href="080923">1/27/26</a></li>
-     </ol>
-  </summary>
-</details>
-
-
 ---------------
 
 
@@ -567,4 +465,104 @@ See GitHub profile for links and communication options.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ---------------
+
+
+## Contents
+
+-
+  <details>
+    <summary><strong><em>I: Overview & Features</em></strong></summary>
+    <ol>
+      <li>
+        <a href="#Overview">Project Overview</a>
+        <ul>
+          <li><a href="#Objectives">Objectives</a></li>
+          <li><a href="#KeyFeatures">Key Features</a></li>
+          <li><a href="#Notes">Current Notes and Issues</a></li>
+        </ul>
+      </li>
+    </ol>
+  </details>
+-
+  <details>
+    <summary><strong><em>II: Implementation Details</em></strong></summary>
+    <ol>
+      <li><a href="#TechStack">Technologies and Programming Languages</a></li>
+      <li>
+        <a href="#Roadmap">Roadmap</a>
+        <ul>
+          <li><a href="#Todo">To-Do List</a></li>
+        </ul> 
+      </li>
+      <li><a href="#MVP">MVP Scope (Personal Use)n</a></li>
+      <li><a href="#Workflow">Basic Workflow Guide</a></li>
+      <li>
+        <a href="#Project">Project Implementation Guide</a></li>
+      <ul>
+      <li><a href="#UIUX">UI/UX Implementation Details</a></li>
+      <li><a href="#Web">Web Application</a></li>
+      <li><a href="#Implementation">Implementation Details</a></li>
+      </ul>
+      <li><a href="#Future">Future Enhancements</a></li>
+    </ol>
+  </details>
+-
+  <details>
+    <summary><strong><em>III: Usage, Installation & Getting Started</em></strong></summary>
+    <ol>
+      <li>
+        <a href="#IO">I/O Specifications</a>
+        <ul>
+          <li><a href="#i">Input</a></li>
+          <li><a href="#o">Output</a></li>
+          <li><a href="#Error">Error Handling</a></li>
+        </ul>
+      </li>
+      <li><a href="#Install">Installation</a>
+        <ul>
+          <li><a href="#Prereqs">Prerequisites</a></li>
+          <li><a href="#BuildAndRun">Build and Run</a></li>
+        </ul>
+      </li>
+      <li><a href="#Setup">Setup</a></li>
+      <li><a href="#Usage">Usage</a></li>
+      <li><a href="#SystemReqs">System Requirements</a></li>
+    </ol>
+  </details>
+-
+  <details>
+    <summary><strong><em>IV: Miscellaneous</em></strong></summary>
+    <ol>
+      <li>
+        <a href="Misc">Miscellaneous</a>
+          <ul>
+            <li><a href="#DevEnv">Development Environment</a></li>
+            <li><a href="#TimeEst">Time Estimate</a></li>
+          </ul>
+      </li>
+      <li><a href="Contributions">Contributions</a></li>
+      <li><a href="Conclusion">Conclusion</a></li>
+      <li><a href="Contact">Contact</a></li>
+      <li><a href="Acknowledgements">Acknowledgments</a></li>
+    </ol>
+  </details>
+
+<details>
+  <summary>File Hierarchy</summary>
+</details>
+
+<details>
+  <summary>Current Tech Stack &nbsp; [<a href="#TechStack">view more details</a>]</p>
+  </summary>
+</details>
+
+
+<details>
+  <summary>Progress &nbsp; [<a href="#curr">view our progress, logs, and other documentation</a>]</summary>
+    <p><strong><ins>Note</ins>:</strong><em> Last updated</em>: 1/27/26</p>
+     <ol>
+       <li><a href="080923">1/27/26</a></li>
+     </ol>
+  </summary>
+</details>
 
