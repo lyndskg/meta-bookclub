@@ -34,7 +34,6 @@
 
 The base project is intentionally minimal. All advanced features are optional and can be added only if you want to.
 
----
 
 <a name="Objectives"></a>
 ## Objectives
