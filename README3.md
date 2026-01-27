@@ -69,7 +69,7 @@ Everything runs locally and privately. No accounts, no external APIs, no deploym
 
 It uses a small local dataset, a pre-trained embedding model, and cosine similarity scoring. 
 
-The base project is intentionally minimal. All advanced features are optional and can be added incremently -- only if you want to.
+The project is intentionally minimal at its core. All advanced features (UI, metadata enrichment, clustering, desktop/web versions) are optional and can be added incremently.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -118,56 +118,12 @@ The system will continuously learn from user interactions and feedback, allowing
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ---------------
-  
-<a name="Addenda"></a>
-## Addenda
-
-<a name="MVP"></a>
-## MVP Scope (*Personal Use*)
-
-This is the version you can build in **1–2 sittings**.
-
-### Included:
-> - `books.json` with your reading history  
-> - Embedding generation script  
-> - Similarity-based recommender  
-> - CLI or simple API endpoint  
-
-### Not included (_unless you want them_):
-> - UI  
-> - External APIs  
-> - User accounts  
-> - ML training  
-> - Desktop app  
-> - Deployment  
-
-&nbsp;
-
-<a name="DevEnv"></a>
-### <ins>Development Environment</ins>
-- `Python` 3.10+  
-- Virtual environment recommended  
-- macOS or Linux preferred (Windows works too)  
-- `VSCode` or `PyCharm`  
-
-&nbsp;
-
-<a name="TimeEst"></a>
-### <ins>Time Estimate(s)</ins>
-- MVP: **2–4 hours**  
-- _Optional API_: **1 hour**  
-- _Optional UI_: **2–6 hours**  
-- _Optional metadata enrichment_: **variable**  
 
 
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
----------------
-
+## II. Implementation Details
 
 <a name="TechStack"></a>
-## Tech Stack
+### Tech Stack
 
 The recommended tech stack includes:
 
@@ -196,7 +152,7 @@ Web APIs: To access data from Goodreads and other platforms, such as Google for 
 ---------------
 
 <a name="Roadmap"></a>
-## Roadmap
+### Roadmap (High-Level)
 
 1. Build MVP (JSON → embeddings → recommendations).  
 2. Add optional FastAPI wrapper.  
@@ -212,7 +168,7 @@ Web APIs: To access data from Goodreads and other platforms, such as Google for 
 
 
 <a name="ToDo"></a>
-## To-Do List
+### To-Do List
 - Finalize JSON schema  
 - Implement `embed.py`  
 - Implement `recommend.py`  
@@ -221,12 +177,49 @@ Web APIs: To access data from Goodreads and other platforms, such as Google for 
 - Add optional UI  
 - Add optional metadata enrichment  
 
+
+<a name="TimeEst"></a>
+### <ins>Time Estimate(s)</ins>
+- MVP: **2–4 hours**  
+- _Optional API_: **1 hour**  
+- _Optional UI_: **2–6 hours**  
+- _Optional metadata enrichment_: **variable**
+- 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+---------------
+
+<a name="MVP"></a>
+### MVP Scope (*Personal Use*)
+Included:
+> - `books.json` with your reading history  
+> - Embedding generation script  
+> - Similarity-based recommender  
+> - CLI or simple API endpoint  
+Not included (_unless you want them_):
+> - UI  
+> - External APIs  
+> - User accounts  
+> - ML training  
+> - Desktop app  
+> - Deployment  
+
+&nbsp;
+
+<a name="DevEnv"></a>
+### <ins>Development Environment</ins>
+- `Python` 3.10+  
+- Virtual environment recommended  
+- macOS or Linux preferred (Windows works too)  
+- `VSCode` or `PyCharm`  
+
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ---------------
 
 <a name="Workflow"></a>
-## Basic Workflow
+### Basic Workflow
 
 1. Add your books/poems to `books.json`.
 2. Run `embed.py` to generate embeddings.
@@ -256,7 +249,7 @@ Web APIs: To access data from Goodreads and other platforms, such as Google for 
 ---------------
 
 <a name="Project"></a>
-## Project Implementation Guide
+### Project Implementation Guide
 
 1. Create `books.json`.  
 2. Write embedding script.  
