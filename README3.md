@@ -13,8 +13,6 @@
 
 ## Contents
 
-
--
   <details>
     <summary><strong><em>I: Overview & Features</em></strong></summary>
     <ol>
