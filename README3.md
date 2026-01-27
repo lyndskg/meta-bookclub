@@ -12,24 +12,6 @@
 ---
 
 ## Contents
-### <ins>Table of Contents</ins>
-- [Overview](#Overview)
-    - [Objectives](#Objectives)
-    - [Key Features](#KeyFeatures)
-    - [Current Notes & Issues](#Notes)
-- [Tech Stack](#TechStack)
-- [Roadmap](#Roadmap)
-- [MVP Scope (Personal Use)](#MVP)
-- [Basic Workflow](#Workflow)
-- [I/O Specifications](#IO)
-- [Implementation Details](#Implementation)
-- [Setup](#Setup)
-- [Usage](#Usage)
-- [Optional Future Enhancements](#Future)
-- [Contributions](#Contributions)
-- [Conclusion](#Conclusion)
-- [Contact](#Contact)
-- [Acknowledgments](#Acknowledgements)
 
 
 -
@@ -143,6 +125,26 @@
      </ol>
   </summary>
 </details>
+
+### <ins>Table of Contents</ins>
+- [Overview](#Overview)
+    - [Objectives](#Objectives)
+    - [Key Features](#KeyFeatures)
+    - [Current Notes & Issues](#Notes)
+- [Tech Stack](#TechStack)
+- [Roadmap](#Roadmap)
+- [MVP Scope (Personal Use)](#MVP)
+- [Basic Workflow](#Workflow)
+- [I/O Specifications](#IO)
+- [Implementation Details](#Implementation)
+- [Setup](#Setup)
+- [Usage](#Usage)
+- [Optional Future Enhancements](#Future)
+- [Contributions](#Contributions)
+- [Conclusion](#Conclusion)
+- [Contact](#Contact)
+- [Acknowledgments](#Acknowledgements)
+
 
 
 ---------------
