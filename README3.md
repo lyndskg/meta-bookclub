@@ -30,7 +30,7 @@
 <a name="Overview"></a>
 ## Project Overview
 
-**meta-bookclub** is a lightweight, personal-use AI-powered recommendation tool that generates personalized lists of suggested reading materials based on your own reading history. It uses a small local dataset, a pre-trained embedding model, and simple similarity scoring. Everything runs locally and privately. No accounts, no external APIs, no deployment, no UI requirements.
+`meta-bookclub` is a lightweight, personal-use AI-powered recommendation tool that generates personalized lists of suggested reading materials based on your own reading history. It uses a small local dataset, a pre-trained embedding model, and simple similarity scoring. Everything runs locally and privately. No accounts, no external APIs, no deployment, no UI requirements.
 
 The base project is intentionally minimal. All advanced features are optional and can be added only if you want to.
 
@@ -40,7 +40,7 @@ The base project is intentionally minimal. All advanced features are optional an
 <a name="Objectives"></a>
 ## Objectives
 
-The main objective of **meta-bookclub** is to enhance the reading experience of users by suggesting relevant books and poems that align with their unique interests and preferences.
+The main objective of `meta-bookclub` is to enhance the reading experience of users by suggesting relevant books and poems that align with their unique interests and preferences.
 
 - Load a small dataset of books/poems you’ve read or liked.
 - Provide a simple, local recommendation tool.
