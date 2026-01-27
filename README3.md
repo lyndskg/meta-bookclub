@@ -54,47 +54,52 @@
 - [Contact](#Contact)
 - [Acknowledgments](#Acknowledgements)
 
-
+&nbsp;
 
 ---------------
 
 <a name="Overview"></a>
 ## Project Overview
 
-`meta-bookclub` is a lightweight, personal-use AI-powered recommendation tool that generates personalized lists of suggested reading materials based on your own reading history. It uses a small local dataset, a pre-trained embedding model, and cosine similarity scoring. Everything runs locally and privately. No accounts, no external APIs, no deployment, no UI requirements.
+`meta-bookclub` is a lightweight, personal-use AI-powered recommendation tool that generates personalized lists of suggested reading materials based on your own reading history. 
 
-The base project is intentionally minimal. All advanced features are optional and can be added incremently &emdash; only if you want to.
+Everything runs locally and privately. No accounts, no external APIs, no deployment, no UI requirements.
 
+&nbsp;
+
+It uses a small local dataset, a pre-trained embedding model, and cosine similarity scoring. 
+
+The base project is intentionally minimal. All advanced features are optional and can be added incremently -- only if you want to.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 &nbsp;
 
 <a name="Objectives"></a>
-## Objectives
+### <ins>Objectives</ins>
 
 The main objective of `meta-bookclub` is to enhance the reading experience of users by suggesting relevant books and poems that align with their unique interests and preferences.
 
-- Load a small dataset of books/poems you’ve read or liked.
-- Provide a simple, local recommendation tool.
-- Use and enerate embeddings using a pre-trained model (no training required).
-- Compute similarity between items.
-- Return recommendations based on your taste.
-- Keep the codebase small and easy to modify.
-- Allow optional expansion into more advanced ML or UI features.
+> - Load a small dataset of books/poems you’ve read or liked.
+> - Provide a simple, local recommendation tool.
+> - Use and enerate embeddings using a pre-trained model (_no training required_).
+> - Compute similarity between items.
+> - Return recommendations based on your taste.
+> - Keep the codebase small and easy to modify.
+> - Allow optional expansion into more advanced ML or UI features.
 
 The system will continuously learn from user interactions and feedback, allowing it to improve and fine-tune its recommendations over time.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
----------------
+&nbsp;
 
 <a name="KeyFeatures"></a>
-## Key Features
-- Local JSON dataset of books/poems.
-- Pre-trained SentenceTransformer embeddings.
-- Cosine similarity recommendations.
-- Simple Python scripts (CLI or optional API).
-- Fully offline and private.
-- Optional advanced features (see Future Enhancements).
+### <ins>Key Features</ins>
+> - Local JSON dataset of books/poems.
+> - Pre-trained `SentenceTransformer` embeddings.
+> - Cosine similarity recommendations.
+> - Simple Python scripts (CLI or _optional_ API).
+> - Fully offline and private.
+> - Optional advanced features (see Future Enhancements).
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -102,12 +107,12 @@ The system will continuously learn from user interactions and feedback, allowing
 ---------------
 
 <a name="Notes"></a>
-## Current Notes & Issues
+### <ins>Current Notes & Issues</ins>
 - Need to finalize JSON schema for books/poems.
 - Need to choose embedding model (`all-mpnet-base-v2` recommended).
-- No UI yet (optional).
-- No metadata enrichment (optional).
-- No Goodreads/Kindle import (optional).
+- No UI yet (_optional_).
+- No metadata enrichment (_optional_).
+- No Goodreads/Kindle import (_optional_).
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -117,42 +122,42 @@ The system will continuously learn from user interactions and feedback, allowing
 <a name="Addenda"></a>
 ## Addenda
 
----
-
 <a name="MVP"></a>
-## MVP Scope (Personal Use)
+## MVP Scope (*Personal Use*)
 
 This is the version you can build in **1–2 sittings**.
 
 ### Included:
-- `books.json` with your reading history  
-- Embedding generation script  
-- Similarity-based recommender  
-- CLI or simple API endpoint  
+> - `books.json` with your reading history  
+> - Embedding generation script  
+> - Similarity-based recommender  
+> - CLI or simple API endpoint  
 
-### Not included (unless you want them):
-- UI  
-- External APIs  
-- User accounts  
-- ML training  
-- Desktop app  
-- Deployment  
+### Not included (_unless you want them_):
+> - UI  
+> - External APIs  
+> - User accounts  
+> - ML training  
+> - Desktop app  
+> - Deployment  
 
+&nbsp;
 
 <a name="DevEnv"></a>
-## Development Environment
+### <ins>Development Environment</ins>
 - `Python` 3.10+  
 - Virtual environment recommended  
 - macOS or Linux preferred (Windows works too)  
 - `VSCode` or `PyCharm`  
 
+&nbsp;
+
 <a name="TimeEst"></a>
-## Time Estimate(s)
-## Time Estimate(s)
+### <ins>Time Estimate(s)</ins>
 - MVP: **2–4 hours**  
-- Optional API: **1 hour**  
-- Optional UI: **2–6 hours**  
-- Optional metadata enrichment: **variable**  
+- _Optional API_: **1 hour**  
+- _Optional UI_: **2–6 hours**  
+- _Optional metadata enrichment_: **variable**  
 
 
 
@@ -164,13 +169,22 @@ This is the version you can build in **1–2 sittings**.
 <a name="TechStack"></a>
 ## Tech Stack
 
+The recommended tech stack includes:
+
+`Python`: For its extensive libraries, ease of use, and strong support for machine learning frameworks.
+`TensorFlow` or `PyTorch`: For building and training the machine learning models.
+Web APIs: To access data from Goodreads and other platforms, such as Google for additional book ratings.
+`Flask` or `Django`: To create a user-friendly web application for interfacing with the recommendation system.
+
+&nbsp; 
+
 ### Core (MVP):
 - `Python`  
 - `SentenceTransformers` 
 - `scikit-learn`  
 - `JSON`  
 
-### Optional:
+### _Optional_:
 - `FastAPI` (API wrapper)  
 - `React` or simple HTML (UI)  
 - `SQLite`/`PostgreSQL` (larger datasets)
@@ -188,7 +202,13 @@ This is the version you can build in **1–2 sittings**.
 2. Add optional FastAPI wrapper.  
 3. Add optional UI.  
 4. Add optional metadata enrichment.  
-5. Add optional clustering / mood-based lists.  
+5. Add optional clustering / mood-based lists.
+
+
+1. Implement user registration and authentication for personalized recommendations.
+2. Expand data sources and integrations to include other popular eBook platforms.
+3. Enhance the ML model to consider more nuanced user preferences and literary themes.
+4. Create a mobile app version for on-the-go book and poem recommendations.
 
 
 <a name="ToDo"></a>
@@ -212,8 +232,25 @@ This is the version you can build in **1–2 sittings**.
 2. Run `embed.py` to generate embeddings.
 3. Run `recommend.py --title "<book>"`.
 4. Get a ranked list of similar items.
+5. **<ins>Data Collection</ins>:**
+- Obtain user consent and access to their Goodreads/Kindle account(s) using the platform's APIs.
+- Retrieve the user's reading history, including books, poems, ratings, and to-read list.
+- Gather user-inputted preferences, such as favorite genre, book, author, and quotes.
+6. **Data Preprocessing:**
+- Clean and preprocess the acquired data, handling missing information and converting it into a usable format.
+7. **Feature Engineering:**
+- Extract relevant features from the data, such as book genres, author information, and user preferences.
+- Create embeddings or representations for books, poems, and user preferences to facilitate ML modeling.
+8. **Machine Learning Model:**
+- Train a machine learning model (e.g., collaborative filtering, content-based filtering, or hybrid approaches) to learn user preferences and generate book and poem recommendations.
+9. **Fine-Tuning Option:**
+- Implement a user interface to allow users to adjust preference metrics' correlation with book/poem recommendations.
+- Collect user feedback on suggested readings to fine-tune the recommendation model accordingly.
+10. **User Interface:**
+- Develop a web-based user interface using `Flask` or `Django` to interact with the recommendation system.
+- Allow users to view their suggested reading list, update preferences, and rate recommended books and poems.
 
-
+  
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ---------------
@@ -225,7 +262,7 @@ This is the version you can build in **1–2 sittings**.
 2. Write embedding script.  
 3. Write similarity script.  
 4. Add CLI or API.  
-5. (Optional) Add UI. 
+5. (_Optional_) Add UI. 
 
 ---
 
@@ -269,7 +306,7 @@ The web version is optional. If implemented:
 - Returns JSON list of recommendations.
 - Loads precomputed embeddings from disk.
 
-**Frontend (optional):**
+**Frontend (_optional_):**
 - Simple fetch request to the backend.
 - Displays ranked recommendations.
 - No authentication or persistent user accounts.
@@ -390,6 +427,14 @@ python recommend.py --title "Normal People"
 <a name="Usage"></a>
 ## Usage
 
+To set up `meta-bookclub`, follow these steps:
+
+1. Clone the GitHub repository to your local machine.
+2. Install the required dependencies using `pip install -r requirements.txt`.
+3. Set up your Goodreads and Kindle API keys for data access (instructions provided in the project documentation).
+4. Run the `Flask` application using `python app.py` and access it through your web browser.
+
+&nbsp;
 
 Example:
 ```
