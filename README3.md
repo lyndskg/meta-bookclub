@@ -25,7 +25,7 @@
 - [Optional Future Enhancements](#Future)
 - [Contact](#contact)
 
----
+---------------
 
 <a name="Overview"></a>
 ## Project Overview
@@ -34,8 +34,8 @@
 
 The base project is intentionally minimal. All advanced features are optional and can be added only if you want to.
 
-&nbsp;
 
+&nbsp;
 
 <a name="Objectives"></a>
 ## Objectives
@@ -50,8 +50,9 @@ The main objective of `meta-bookclub` is to enhance the reading experience of us
 - Keep the codebase small and easy to modify.
 - Allow optional expansion into more advanced ML or UI features.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
----
+---------------
 
 <a name="KeyFeatures"></a>
 ## Key Features
@@ -62,7 +63,7 @@ The main objective of `meta-bookclub` is to enhance the reading experience of us
 - Fully offline and private.
 - Optional advanced features (see below).
 
----
+---------------
 
 <a name="TechStack"></a>
 ## Tech Stack
@@ -77,7 +78,7 @@ The main objective of `meta-bookclub` is to enhance the reading experience of us
 - React or simple HTML (UI)  
 - SQLite/PostgreSQL (larger datasets)  
 
----
+---------------
 
 <a name="MVP"></a>
 ## MVP Scope (Personal Use)
@@ -98,7 +99,7 @@ This is the version you can build in **1–2 sittings**.
 - Desktop app  
 - Deployment  
 
----
+---------------
 
 <a name="Workflow"></a>
 ## Basic Workflow
@@ -108,7 +109,7 @@ This is the version you can build in **1–2 sittings**.
 3. Run `recommend.py --title "<book>"`.
 4. Get a ranked list of similar items.
 
----
+---------------
 
 <a name="IO"></a>
 ## I/O Specifications
@@ -120,7 +121,7 @@ This is the version you can build in **1–2 sittings**.
 ### Output
 - Ranked list of recommendations with similarity scores
 
----
+---------------
 
 <a name="Implementation"></a>
 ## Implementation Details
