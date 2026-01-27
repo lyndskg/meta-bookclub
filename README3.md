@@ -213,19 +213,46 @@ The system will continuously learn from user interactions and feedback, allowing
 
 ---------------
 
-<a name="KeyFeatures"></a>
-## Key Features
-- Local JSON dataset of books/poems.
-- Pre-trained SentenceTransformer embeddings.
-- Cosine similarity recommendations.
-- Simple Python scripts (CLI or optional API).
-- Fully offline and private.
-- Optional advanced features (see below).
+  
+<a name="Addenda"></a>
+## Addenda
+
+---
+
+
+<a name="MVP"></a>
+## MVP Scope (Personal Use)
+
+This is the version you can build in **1–2 sittings**.
+
+### Included:
+- `books.json` with your reading history  
+- Embedding generation script  
+- Similarity-based recommender  
+- CLI or simple API endpoint  
+
+### Not included (unless you want them):
+- UI  
+- External APIs  
+- User accounts  
+- ML training  
+- Desktop app  
+- Deployment  
+
+
+<a name="DevEnv"></a>
+## Development Environment
+
+<a name="TimeEst"></a>
+## Time Estimate(s)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ---------------
+
+
+## Implementation Details
 
 
 <a name="TechStack"></a>
@@ -251,31 +278,11 @@ The system will continuously learn from user interactions and feedback, allowing
 ## Roadmap
 
 
+<a name="ToDo"></a>
+## To-Do List
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
----------------
-
-
-<a name="MVP"></a>
-## MVP Scope (Personal Use)
-
-This is the version you can build in **1–2 sittings**.
-
-### Included:
-- `books.json` with your reading history  
-- Embedding generation script  
-- Similarity-based recommender  
-- CLI or simple API endpoint  
-
-### Not included (unless you want them):
-- UI  
-- External APIs  
-- User accounts  
-- ML training  
-- Desktop app  
-- Deployment  
-
+<a name="TimeEst"></a>
+## Time Estimate(s)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -289,23 +296,21 @@ This is the version you can build in **1–2 sittings**.
 3. Run `recommend.py --title "<book>"`.
 4. Get a ranked list of similar items.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
----------------
-
-<a name="IO"></a>
-## I/O Specifications
-
-### Input
-- Title, author, or tag  
-- Local dataset (`books.json`)
-
-### Output
-- Ranked list of recommendations with similarity scores
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ---------------
+
+
+<a name="Project"></a>
+## Project Guide
+
+1. Add your books/poems to `books.json`.
+2. Run `embed.py` to generate embeddings.
+3. Run `recommend.py --title "<book>"`.
+4. Get a ranked list of similar items.
+
+---
 
 <a name="Implementation"></a>
 ## Implementation Details
@@ -322,14 +327,59 @@ Example entry:
 }
 ```
 
+
+<a name="UIUX"></a>
+## UI/UX Implementation Details
+
+
+<a name="Web"></a>
+## Web Application
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+---------------
+
+<a name="Future"></a>
+## Optional Future Enhancements
+
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ---------------
 
 
+<a name="IO"></a>
+## I/O Specifications
 
-<a name="Future"></a>
-## Future
+<a name="i"></a>
+### Input
+- Title, author, or tag  
+- Local dataset (`books.json`)
+
+<a name="o"></a>
+### Output
+- Ranked list of recommendations with similarity scores
+
+<a name="Error"></a>
+### Error Handling
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+---------------
+
+
+<a name="Installation"></a>
+## Installation
+
+<a name="Prereqs"></a>
+### Prerequisites
+
+<a name="SystemReqs"></a>
+#### System Requirements
+
+<a name="BuildAndRun"></a>
+### Build & Run
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -344,7 +394,6 @@ Example entry:
 
 ---------------
 
-
 <a name="Usage"></a>
 ## Usage
 
@@ -353,6 +402,8 @@ Example entry:
 
 ---------------
 
+<a name="Misc"></a>
+## Miscellaneous
 
 <a name="Contributions"></a>
 ## Contributions
