@@ -36,7 +36,6 @@
         <a href="#Roadmap">Roadmap</a>
         <ul>
           <li><a href="#Todo">To-Do List</a></li>
-          <li><a href="#TimeEst">Time Estimate</a></li>
         </ul> 
       </li>
       <li><a href="#MVP">MVP Scope (Personal Use)n</a></li>
@@ -132,9 +131,8 @@
 - [Tech Stack](#TechStack)
 - [Roadmap](#Roadmap)
     - [To-Do List](#ToDo)
-    - [Time Estimate](#TimeEst)
 - [Basic Workflow](#Workflow)
-- [Project Guide](#Project)
+- [Project Implementation Guide](#Project)
     - [Implementation Details](#Implementation)
     - [UI/UX Implementation Details](#UIUX)
     - [Web Application](#Web)
@@ -165,9 +163,9 @@
 <a name="Overview"></a>
 ## Project Overview
 
-`meta-bookclub` is a lightweight, personal-use AI-powered recommendation tool that generates personalized lists of suggested reading materials based on your own reading history. It uses a small local dataset, a pre-trained embedding model, and simple similarity scoring. Everything runs locally and privately. No accounts, no external APIs, no deployment, no UI requirements.
+`meta-bookclub` is a lightweight, personal-use AI-powered recommendation tool that generates personalized lists of suggested reading materials based on your own reading history. It uses a small local dataset, a pre-trained embedding model, and cosine similarity scoring. Everything runs locally and privately. No accounts, no external APIs, no deployment, no UI requirements.
 
-The base project is intentionally minimal. All advanced features are optional and can be added only if you want to.
+The base project is intentionally minimal. All advanced features are optional and can be added incremently &emdash; only if you want to.
 
 
 &nbsp;
@@ -198,7 +196,7 @@ The system will continuously learn from user interactions and feedback, allowing
 - Cosine similarity recommendations.
 - Simple Python scripts (CLI or optional API).
 - Fully offline and private.
-- Optional advanced features (see below).
+- Optional advanced features (see Future Enhancements).
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -207,18 +205,21 @@ The system will continuously learn from user interactions and feedback, allowing
 
 <a name="Notes"></a>
 ## Current Notes & Issues
+- Need to finalize JSON schema for books/poems.
+- Need to choose embedding model (`all-mpnet-base-v2` recommended).
+- No UI yet (optional).
+- No metadata enrichment (optional).
+- No Goodreads/Kindle import (optional).
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ---------------
-
   
 <a name="Addenda"></a>
 ## Addenda
 
 ---
-
 
 <a name="MVP"></a>
 ## MVP Scope (Personal Use)
@@ -242,9 +243,19 @@ This is the version you can build in **1–2 sittings**.
 
 <a name="DevEnv"></a>
 ## Development Environment
+- `Python` 3.10+  
+- Virtual environment recommended  
+- macOS or Linux preferred (Windows works too)  
+- `VSCode` or `PyCharm`  
 
 <a name="TimeEst"></a>
 ## Time Estimate(s)
+## Time Estimate(s)
+- MVP: **2–4 hours**  
+- Optional API: **1 hour**  
+- Optional UI: **2–6 hours**  
+- Optional metadata enrichment: **variable**  
+
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -252,21 +263,19 @@ This is the version you can build in **1–2 sittings**.
 ---------------
 
 
-## Implementation Details
-
-
 <a name="TechStack"></a>
 ## Tech Stack
-**Core (MVP):**
-- Python  
-- SentenceTransformers  
-- scikit-learn  
-- JSON  
 
-**Optional:**
-- FastAPI (API wrapper)  
-- React or simple HTML (UI)  
-- SQLite/PostgreSQL (larger datasets)
+### Core (MVP):
+- `Python`  
+- `SentenceTransformers` 
+- `scikit-learn`  
+- `JSON`  
+
+### Optional:
+- `FastAPI` (API wrapper)  
+- `React` or simple HTML (UI)  
+- `SQLite`/`PostgreSQL` (larger datasets)
 
   
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -277,12 +286,22 @@ This is the version you can build in **1–2 sittings**.
 <a name="Roadmap"></a>
 ## Roadmap
 
+1. Build MVP (JSON → embeddings → recommendations).  
+2. Add optional FastAPI wrapper.  
+3. Add optional UI.  
+4. Add optional metadata enrichment.  
+5. Add optional clustering / mood-based lists.  
+
 
 <a name="ToDo"></a>
 ## To-Do List
-
-<a name="TimeEst"></a>
-## Time Estimate(s)
+- Finalize JSON schema  
+- Implement `embed.py`  
+- Implement `recommend.py`  
+- Add CLI arguments  
+- Add optional FastAPI endpoint  
+- Add optional UI  
+- Add optional metadata enrichment  
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -301,23 +320,21 @@ This is the version you can build in **1–2 sittings**.
 
 ---------------
 
-
 <a name="Project"></a>
-## Project Guide
+## Project Implementation Guide
 
-1. Add your books/poems to `books.json`.
-2. Run `embed.py` to generate embeddings.
-3. Run `recommend.py --title "<book>"`.
-4. Get a ranked list of similar items.
+1. Create `books.json`.  
+2. Write embedding script.  
+3. Write similarity script.  
+4. Add CLI or API.  
+5. (Optional) Add UI. 
 
 ---
 
 <a name="Implementation"></a>
 ## Implementation Details
 
-### 1. Data
-Example entry:
-
+### 1. Data Example
 ```json
 {
   "title": "Bluets",
