@@ -138,7 +138,7 @@
     - [Web Application](#Web)
 - [Optional Future Enhancements](#Future)
   
-### *<ins>III: Usage, Installation & Getting Started</ins>*
+### III: *<ins>Usage, Installation & Getting Started</ins>*
 - [I/O Specifications](#IO)
     - [Input](#i)
     - [Output](#o)
@@ -348,9 +348,36 @@ This is the version you can build in **1–2 sittings**.
 <a name="UIUX"></a>
 ## UI/UX Implementation Details
 
+The MVP does not require a UI, but if you choose to add one later, the structure is simple:
+
+- A single search input for entering a book/poem title.
+- A results panel listing recommended items with similarity scores.
+- Optional metadata display (author, genres, notes).
+- Optional tag editor for refining personal preferences.
+- Minimal styling; functionality is the priority.
+
+The UI can be implemented as:
+- A static HTML page calling a FastAPI endpoint, or
+- A small React component with a single route.
+
 
 <a name="Web"></a>
 ## Web Application
+
+The web version is optional. If implemented:
+
+**Backend (FastAPI):**
+- Endpoint: `/recommend?title=<title>`
+- Returns JSON list of recommendations.
+- Loads precomputed embeddings from disk.
+
+**Frontend (optional):**
+- Simple fetch request to the backend.
+- Displays ranked recommendations.
+- No authentication or persistent user accounts.
+
+This keeps the web version lightweight and easy to maintain.
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -359,6 +386,32 @@ This is the version you can build in **1–2 sittings**.
 <a name="Future"></a>
 ## Optional Future Enhancements
 
+These are optional and can be added incrementally:
+
+### Data & Metadata
+- Goodreads/Kindle import.
+- `OpenLibrary` / Google Books metadata enrichment.
+- Automatic genre/theme extraction.
+- Author similarity graphs.
+
+### ML / Recommendation Logic
+- Hybrid recommender (content + collaborative filtering).
+- Mood‑based clustering.
+- Personalized taste vector with adjustable weights.
+- Re-ranking based on user feedback.
+
+### UI / UX
+- Tagging interface.
+- Reading dashboard with stats.
+- Saved lists and collections.
+- “If you liked X, you’ll like Y” chains.
+
+### Storage / Scaling
+- `SQLite`/`PostgreSQL` database.
+- Cached embeddings for faster lookup.
+- Support for larger datasets.
+
+All enhancements are optional and do not affect the MVP.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -370,15 +423,23 @@ This is the version you can build in **1–2 sittings**.
 
 <a name="i"></a>
 ### Input
-- Title, author, or tag  
-- Local dataset (`books.json`)
+- Title, author, or tag.
+- Local dataset (`books.json`).
+- Optional: user-provided notes or tags.
 
 <a name="o"></a>
 ### Output
-- Ranked list of recommendations with similarity scores
+- Ranked list of recommendations with similarity scores.
+- Optional metadata (author, genres, notes).
+
 
 <a name="Error"></a>
 ### Error Handling
+- Title not found in dataset → return a clear message.
+- Empty dataset → instruct user to populate `books.json`.
+- Embedding file missing → instruct user to run `embed.py`.
+- Invalid JSON format → prompt user to fix malformed entries.
+
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -391,13 +452,24 @@ This is the version you can build in **1–2 sittings**.
 
 <a name="Prereqs"></a>
 ### Prerequisites
+- `Python` 3.10+
+- `pip`
+- Basic familiarity with running Python scripts
+  
 
 <a name="SystemReqs"></a>
 #### System Requirements
+- macOS, Linux, or Windows
+- ~200MB disk space for embedding model
+- No GPU required
 
 <a name="BuildAndRun"></a>
 ### Build & Run
-
+```bash
+pip install -r requirements.txt
+python embed.py
+python recommend.py --title "Normal People"
+```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -405,6 +477,12 @@ This is the version you can build in **1–2 sittings**.
 
 <a name="Setup"></a>
 ## Setup
+1. Clone the repository.
+2. Create and activate a virtual environment (optional).
+3. Install dependencies.
+4. Add your books/poems to `books.json`.
+5. Run `embed.py` to generate embeddings.
+6. Run `recommend.py` to get recommendations.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -415,6 +493,19 @@ This is the version you can build in **1–2 sittings**.
 ## Usage
 
 
+Example:
+```
+python recommend.py --title "Bluets"
+```
+
+Example output:
+```
+1. The Argonauts (0.82)
+2. On Earth We're Briefly Gorgeous (0.79)
+3. Night Sky With Exit Wounds (0.76)
+```
+
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ---------------
@@ -422,9 +513,21 @@ This is the version you can build in **1–2 sittings**.
 <a name="Misc"></a>
 ## Miscellaneous
 
+This project is intentionally minimal.
+
+All advanced features are optional and can be added only if desired.
+
+
 <a name="Contributions"></a>
 ## Contributions
 
+Contributions are welcome.
+
+Focus areas:
+• Code cleanup
+• Additional metadata fields
+• Optional UI components
+• Optional API improvements
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -434,6 +537,9 @@ This is the version you can build in **1–2 sittings**.
 <a name="Conclusion"></a>
 ## Conclusion
 
+`meta-bookclub` provides a simple, local recommendation tool that can be expanded over time.
+
+The MVP is small and fast to build; advanced features are modular and optional.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -443,6 +549,7 @@ This is the version you can build in **1–2 sittings**.
 <a name="Contact"></a>
 ## Contact
 
+See GitHub profile for links and communication options.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -453,6 +560,9 @@ This is the version you can build in **1–2 sittings**.
 <a name="Acknowledgements"></a>
 ## Acknowledgements
 
+- `SentenceTransformers`
+- `scikit-learn`
+- Open-source ML community
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
