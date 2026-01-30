@@ -1,1 +1,18 @@
+[
+  {
+    "title": "Bluets",
+    "author": "Maggie Nelson",
+    "genres": ["essay", "poetry"],
+    "notes": "lyrical, fragmented, introspective",
 
+    "isbn": null,
+    "my_rating": null,
+    "avg_rating": null,
+    "shelves": [],
+    "date_read": null,
+    "goodreads_id": null,
+    "page_count": null,
+    "publisher": null, 
+    "year_published": null
+  }
+]
